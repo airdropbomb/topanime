@@ -23,9 +23,11 @@ npm install
 ```bash
 nano data.txt
 ```
+```
 user1|pass1|http://proxy1:8080
 user2|pass2|http://user:pass@proxy2:8080
 user3|pass3
+```
 
 ## Run the script
 
