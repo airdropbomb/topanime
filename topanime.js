@@ -277,7 +277,7 @@ const scrapeAnimeList = async (page, pageNumber) => {
             const statusButton = row.querySelector('a.btn-addEdit-large.btn-anime-watch-status.js-anime-watch-status');
 
             if (titleElement && statusButton) {
-                const title = titleElement.textContent milliard;
+                const title = titleElement.textContent.trim();
                 const href = titleElement.getAttribute('href');
                 const idMatch = href.match(/anime\/(\d+)/);
                 const animeId = idMatch ? parseInt(idMatch[1]) : null;
