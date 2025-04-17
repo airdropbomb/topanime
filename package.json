@@ -1,0 +1,19 @@
+{
+  "name": "manga-list-automation",
+  "version": "1.0.0",
+  "description": "Automate adding manga to MyAnimeList",
+  "main": "manga-list.js",
+  "scripts": {
+    "start": "node manga-list.js",
+    "install-deps": "npm install",
+    "clean": "rm -rf manga-cookies && find . -name 'error-*.png' -delete",
+    "test": "echo \"No tests defined\" && exit 0"
+  },
+  "dependencies": {
+    "puppeteer": "^23.11.1",
+    "puppeteer-core": "^23.11.1",
+    "winston": "^3.17.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
